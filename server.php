@@ -1,6 +1,6 @@
 <?php 
 
-require_once('wp-db.php');
+require_once('lib/wp-db.php');
 
 global $wpdb;
 
