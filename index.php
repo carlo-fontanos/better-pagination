@@ -116,6 +116,9 @@
 					
 					/* Display the pagination */
 					$(navigation_element).show();
+					
+					/* Scroll to the top. */
+					jQuery('html, body').animate({scrollTop: jQuery(content_element).offset().top-100}, 150);
 				}
 			});		
 		}
