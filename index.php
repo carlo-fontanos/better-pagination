@@ -4,13 +4,16 @@
  * Wordpress WPDB Class: 	http://perials.com/using-wpdb-in-core-php-non-wordpress-projects/
  * JsRender: 				https://www.jsviews.com/
  * 
+ * @author					Carl Victor C. Fontanos
+ * @author_url				www.carlofontanos.com
+ * 
  */
 ?>
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Bootstrap Example</title>
+    <title>HighSpeed Pagination</title>
 	
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">

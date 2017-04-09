@@ -1,5 +1,10 @@
 <?php 
-
+/**
+ * @author					Carl Victor C. Fontanos
+ * @author_url				www.carlofontanos.com
+ * 
+ */
+ 
 require_once('lib/wp-db.php');
 
 global $wpdb;
