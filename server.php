@@ -18,7 +18,7 @@ $count = $wpdb->get_var("SELECT COUNT(id) FROM item" );
 $total_pages = ceil( $count / $per_page );
 
 $format_data = array(
-	'content'	=> $all_items,
+	'data'	=> $all_items,
 	'total_pages' => $total_pages
 );
 
