@@ -43,25 +43,23 @@
 		<div class="col-sm-3 item-{{:id}}">
 			<div class="panel panel-default">
 				<div class="panel-heading item-name">{{:iname}}</div>
-				<div class="panel-body p-0 p-b">
-					<a href="#">
-						<img src="//placeholdit.imgix.net/~text?txtsize=33&txt=150%C3%97150&w=300&h=300" width="100%" class="img-responsive item-featured">
-					</a>
-					<div class="list-group m-0">
-						<div class="list-group-item b-0 b-t">
-							<i class="fa fa-calendar-o fa-2x pull-left ml-r"></i>
-							<p class="list-group-item-text">Price</p>
-							<h4 class="list-group-item-heading">$<span class="item-price">{{:minbid}}</span></h4>
-						</div>
-						<div class="list-group-item b-0 b-t">
-							<i class="fa fa-calendar fa-2x pull-left ml-r"></i>
-							<p class="list-group-item-text">Quantity</p>
-							<h4 class="list-group-item-heading item-stock">{{:quantity}}</h4>
-						</div>
+				<a href="#">
+					<img src="//placeholdit.imgix.net/~text?txtsize=33&txt=300%C3%97200&w=300&h=200" width="100%" class="img-responsive item-featured">
+				</a>
+				<div class="list-group">
+					<div class="list-group-item">
+						<i class="fa fa-calendar-o fa-2x pull-left"></i>
+						<p class="list-group-item-text">Price</p>
+						<h4 class="list-group-item-heading">$<span class="item-price">{{:minbid}}</span></h4>
+					</div>
+					<div class="list-group-item">
+						<i class="fa fa-calendar fa-2x pull-left"></i>
+						<p class="list-group-item-text">Quantity</p>
+						<h4 class="list-group-item-heading item-stock">{{:quantity}}</h4>
 					</div>
 				</div>
 				<div class="panel-footer">	
-					<a href="#" class="btn btn-success btn-block">View Item</a>
+					<a href="#" class="btn btn-primary btn-block">View Item</a>
 				</div>
 			</div>
 		</div>
