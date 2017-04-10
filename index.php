@@ -66,7 +66,6 @@
 			</div>
 		</div>
 		{{if (#index+1)%4 == 0}}
-			<!-- Add clearfix every 4 items -->
 			<div class = "clearfix"></div>
 		{{/if}}
 	</script>
