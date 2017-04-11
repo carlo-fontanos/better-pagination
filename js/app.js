@@ -35,7 +35,7 @@ var app = {
 				displayedPages: 5, /* Items between first and last buttons */
 				ellipsePageSet: false, /* Remove page input field */
 				edges: 1, /* Number of buttons to display on the edges */
-				cssStyle: 'light-theme',
+				cssStyle: 'bootstrap-theme',
 				currentPage: current_page ? current_page : 1, 
 				onInit: _this.render_content(1, data), /* Get content via ajax */
 				onPageClick: function(page, event){
